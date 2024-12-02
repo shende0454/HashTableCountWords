@@ -38,7 +38,7 @@ namespace HashLib
         }
             public uint Hash(KeyType key)
         {
-            //Is casting to uint needed? GetHasHcODE OR HASHCODE 
+             
             uint value;
             value = (uint)((key.GetHashCode() & 0x7fffffff) % capacityOfTable);
             while(value > capacityOfTable || value < 0)
