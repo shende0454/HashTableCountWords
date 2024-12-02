@@ -16,8 +16,7 @@ namespace HashLib
             Key = key;
             Payload = value;
         }
-        // Ask DR. Ribler about changing accessabilty of keys and value variables.
-        //And if we should implement the hashtable with parallel arrays 
+        
         public KeyType Key { get; set; }
         public ValueType Payload { get; set; }
 
