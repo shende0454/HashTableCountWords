@@ -36,14 +36,14 @@ namespace HashLib
                 toReturn = 1;
             }
             return toReturn;
-            //return this.CompareTo(other);
+            
         }
 
         public bool Equals(HashTableEntry<KeyType, ValueType> other)
         {
 
              return Equals(other as HashTableEntry<KeyType, ValueType>);
-           // return (Key == other.Key && Payload == other.Payload);
+           
         }
 
         public override int GetHashCode()
