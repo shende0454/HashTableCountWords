@@ -21,9 +21,7 @@ namespace UnitTestProject1
             }
         }
 
-        //// All the remaining tests should be implemented using an open hash with
-        //// linear probe.  You must implement this hashtable as described to get
-        //// get credit for the lab.
+        
 
         [TestMethod]
         public void T002_containsTest()
